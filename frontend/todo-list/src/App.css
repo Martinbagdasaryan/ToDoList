@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input {
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 7px;
+  border: 1px solid;
+  outline: none;
+  font-size: 16px;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.input-row1{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.input-row2{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 80px;
+}
+
+
+.input-row3{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.input-row5{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+}
+.input-Log{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
+.input-Log1{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+}
